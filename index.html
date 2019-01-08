@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DUHOOT</title>
+	<link rel="stylesheet" type="text/css" href="css/styde.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+	<div class="nav">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-1" style="padding: 0;margin: 0;"></div>
+				<div class="col-lg-2" style="padding: 0; margin: 0;">
+					<a href="#"><img src="images/duhoot.png"></a>
+				</div>
+				<div class="col-lg-6" style="padding: 0; margin: 0;">
+					<div class="list">
+						<ul>
+							<li><a href="#">MOBILITY</a></li>
+							<li><a href="#">ENTERTAINMENT</a></li>
+							<li><a href="#">EDUCATION</a></li>
+							<li><a href="#">LIVING</a></li>
+							<li><a href="#">REALITY</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-1" style="text-align: center; padding: 0; margin: 0;">
+					<div class="search">
+						<a href="#"><i class="fa fa-search" style="font-size:24px;color: white;"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-2" style="background-color: #e94e38; padding: 0;margin: 0; ">
+					<div class="row" style="margin-right:0;">
+						<div class="col-md-6" style="padding: 0; text-align: left;">
+							<div class="user">
+								<a href="#">
+									<i class="fa fa-user" style="font-size:18px;color:white"></i>
+									<span> LOGIN</span>
+								</a>	
+
+							</div>
+						</div>
+						<div class="col-lg-6"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="filter">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3"></div>
+				<div class="col-lg-6">
+					<div class="filtercontent">
+						<h2>What are you looking for?</h2>
+						<div class="row" style="margin-top: 36px;margin-bottom: 0;">
+							<div class="container-fluid">
+								<div class="col-lg-6">
+									<form>
+										<div class="dubai">
+											<select id="country" name="country">
+												<option value="dubai">
+												Dubai</option>
+												<option value="sidley">Sidley</option>
+											</select>
+										</div>
+									</form>
+								</div>
+								<div class="col-lg-6">
+									<form>
+										<div class="education">
+											<select id="edu" name="edu">
+												<option value="educa">Education</option>
+												<option value="sidley">Family</option>
+											</select>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<form style="margin-top: 21px;">
+							<div class="keyword">
+								<input type="text" placeholder="Keyword, name, date, ..." id="kname">
+							</div>
+						</form>
+						<div class="btnsearch">
+							<!-- <a href="#" style="padding: 5px; background-color: #e94e38;">SEARCH</a> -->
+							<input type="submit" value="SEARCH" >
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-lg-3"></div>
+			</div>
+		</div>
+	</div>
+	<div class="nav2">
+		<div class="container" style="width: 1100px;">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="nav2l">
+						<a href="#" style=" color:#e94e38;">RECOMEMENDED</a>
+						<a href="#">LASTEST</a>
+						<a href="#">HIGHLIGHTS</a>
+					</div>
+				</div>
+				<div class="col-lg-4" style="text-align: center;padding:0 0 0 75px;">
+					<form>
+						<div class="nav2c">
+							<select class="dubai2">
+								<option value="Dubai" >Dubai</option>
+								<option value="sidley">Sidley</option>
+								
+							</select>
+							
+						</div>
+						<div class="nav2c">
+							<select class="dubai2" name="edu">
+								<option value="educa">Education</option>
+								<option value="sidley">Family</option>
+							</select>
+						</div>
+					</form>
+				</div>
+				<div class="col-lg-4">
+					<div class="filter2">
+						<p>FILTER: 
+							<span><button type="button" class="btnHome">
+         					<img src="images/home.png">
+        					</button></span>
+
+        					<span><button type="button" class="btnNurse">
+         					<img src="images/nurse.png">
+        					</button></span>
+
+        					<span><button type="button" class="btnEdu">
+         					<img src="images/edu.png">
+        					</button></span>
+
+        					<span><button type="button" class="btnMusic">
+         					<img src="images/music.png">
+        					</button></span>
+
+        					<span><button type="button" class="btnBus">
+         					<img src="images/bus.png">
+        					</button></span>
+        				</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="container" style="width: 980px;">
+			<div class="row" >
+				<div class="col-lg-3" >
+					<a href="#" class="atag">
+						<div class="row1" >
+							<div class="homebig">
+								<img src="images/homebig.png">
+							</div>
+							<div class="whover">
+								<button type="button"><i class="fa fa-search" style="font-size:15px;color: white;"></i><span> SHOW MORE</span></button>
+								<p>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+
+									<span style="margin-left: 25px;"><img src="images/mess.png"></span>
+								</p>
+
+							</div>
+							<div class="r1top">
+								<img src="images/11.png">
+							</div>
+							<div class="r1bottom">
+								<p class="p1">2 bedroom house for rent <br>in Dubai</p>
+								<p class="p2">Vision Agency</p>
+								<p class="r1bottomp">
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='far fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-3">
+					<a href="#" class="atag">
+						<div class="row1">
+							<div class="musicbig">
+								<img src="images/musicbig.png">
+							</div>
+							<div class="whovermusic">
+								<button type="button"><i class="fa fa-search" style="font-size:15px;color: white;"></i><span> SHOW MORE</span></button>
+								<p>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+
+									<span style="margin-left: 25px;"><img src="images/mess.png"></span>
+								</p>
+
+							</div>
+							<div class="r1musictop">
+								<img src="images/12.png">
+							</div>
+							<div class="r1musicbottom">
+								<p class="p1">2 Beach party festival <br>
+								2014</p>
+								<p class="p2">LONG BEACH</p>
+								<p class="r1bottomp">
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-3">
+					<a href="#" class="atag">
+						<div class="row1">
+							<div class="busbig">
+								<img src="images/bigbus.png">
+							</div>
+							<div class="whoverbus">
+								<button type="button"><i class="fa fa-search" style="font-size:15px;color: white;"></i><span> SHOW MORE</span></button>
+								<p>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+
+									<span style="margin-left: 25px;"><img src="images/mess.png"></span>
+								</p>
+
+							</div>
+							<div class="r1bustop">
+								<img src="images/11.png">
+							</div>
+							<div class="r1busbottom">
+								<p class="p1">2 Aliquam quis pulvinar<br> purus</p>
+								<p class="p2">BUS TRANS</p>
+								<p class="r1bottomp">
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='far fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-3" >
+					<a href="#" class="atag">
+						<div class="row1" >
+							<div class="homebig">
+								<img src="images/homebig.png">
+							</div>
+							<div class="whover">
+								<button type="button"><i class="fa fa-search" style="font-si0ze:15px;color: white;"></i><span> SHOW MORE</span></button>
+								<p>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+
+									<span style="margin-left: 25px;"><img src="images/mess.png"></span>
+								</p>
+
+							</div>
+							<div class="r1top">
+								<img src="images/14.png">
+							</div>
+							<div class="r1bottom">
+								<p class="p1">4 bedroom house for rent<br>in Dubai</p>
+								<p class="p2">Reality Agency</p>
+								<p class="r1bottomp" style="margin-top: 0;">
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='far fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<div   >
+						<div class="row1" id="homebig">
+							<div class="homebig2">
+								<img src="images/homebig.png">
+							</div>
+							
+							<div class="r1top">
+								<img src="images/21.png">
+									<p class="visionAgency"><span class="lucip" style="color: white;"><a href="#">vision agency </a> </span>
+										<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+										<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+										<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+										<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+										<i class='far fa-star' style='font-size:12px;color:#f19e1f'></i>
+									</p>
+							</div>
+							<div class="gradient"></div>
+							<div class="r1bottom" 
+							id="atagg" style="margin-top: 15px; height: auto; transition: height 2s;">
+								<div class="r1btmLeftDiv">
+										<img src="images/lucip2.png">
+										
+								</div>
+								<div class="r1btmRightDiv">
+									
+									<p class="r1bottomp" style="padding-bottom: 0;">
+										<i class='fas fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+										<i class='fas fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+										<i class='fas fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+										<i class='fas fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+										<i class='far fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+									</p>
+									<p class="lucip">LUCY-P</p>
+									<p class="p1" style="margin-bottom: 20px;">“Aliquam quis pulvinar purus. Etiam cursus<br> ipsum quis enim faucibus, quis posuere orci<br> ornare. Duis mattis sagittis fringilla.” ...<button id="readmoreBtn">read more</button>
+									<span class="p1" id="p1clicked"  style="margin-bottom: 20px;">
+										“Aliquam quis pulvinar purus. Etiam cursus<br> ipsum quis enim faucibus, quis posuere orci<br> ornare. Duis mattis sagittis fringilla.” ..<button id="hideBtn">read less</button>
+									</span>
+									</p>
+
+									
+
+									
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div   >
+						<div class="row1" id="homebig">
+							<div class="homebig2" style="background-color: #f19e1f">
+								<img src="images/musicbig.png">
+							</div>
+							
+							<div class="r1top" style="border-bottom: 3px solid #f19e1f;">
+								<img src="images/41.png">
+									<p class="visionAgency"><span class="lucip" style="color: white;"><a href="#">skybox club </a> </span>
+										<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+										<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+										<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+										<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+										<i class='far fa-star' style='font-size:12px;color:#f19e1f'></i>
+									</p>
+							</div>
+							<div class="gradient"></div>
+							<div class="r1bottom" 
+							id="atagg" style="margin-top: 15px; height: auto; transition: height 2s;">
+								<div class="r1btmLeftDiv">
+										<img src="images/ava41.png">
+										
+								</div>
+								<div class="r1btmRightDiv">
+									
+									<p class="r1bottomp" style="padding-bottom: 0;">
+										<i class='fas fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+										<i class='fas fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+										<i class='fas fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+										<i class='fas fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+										<i class='far fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+									</p>
+									<p class="lucip">LUCY-P</p>
+									<p class="p1" style="margin-bottom: 20px;">“Aliquam quis pulvinar purus. Etiam cursus<br> ipsum quis enim faucibus, quis posuere orci<br> ornare. Duis mattis sagittis fringilla.” ...<button id="readmoreBtn2">read more</button>
+									<span class="p1" id="p1clicked2"  style="margin-bottom: 20px;">
+										“Aliquam quis pulvinar purus. Etiam cursus<br> ipsum quis enim faucibus, quis posuere orci<br> ornare. Duis mattis sagittis fringilla.” ..<button id="hideBtn2">read less</button>
+									</span>
+									</p>
+
+									
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row" >
+				<div class="col-lg-3" >
+					<a href="#" class="atag">
+						<div class="row1" >
+							<div class="homebig">
+								<img src="images/homebig.png">
+							</div>
+							<div class="whover">
+								<button type="button"><i class="fa fa-search" style="font-size:15px;color: white;"></i><span> SHOW MORE</span></button>
+								<p>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+
+									<span style="margin-left: 25px;"><img src="images/mess.png"></span>
+								</p>
+
+							</div>
+							<div class="r1top">
+								<img src="images/11.png">
+							</div>
+							<div class="r1bottom">
+								<p class="p1">2 bedroom house for rent <br>in Dubai</p>
+								<p class="p2">Vision Agency</p>
+								<p class="r1bottomp">
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='far fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-3">
+					<a href="#" class="atag">
+						<div class="row1">
+							<div class="musicbig">
+								<img src="images/musicbig.png">
+							</div>
+							<div class="whovermusic">
+								<button type="button"><i class="fa fa-search" style="font-size:15px;color: white;"></i><span> SHOW MORE</span></button>
+								<p>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+
+									<span style="margin-left: 25px;"><img src="images/mess.png"></span>
+								</p>
+
+							</div>
+							<div class="r1musictop">
+								<img src="images/12.png">
+							</div>
+							<div class="r1musicbottom">
+								<p class="p1">2 Beach party festival <br>
+								2014</p>
+								<p class="p2">LONG BEACH</p>
+								<p class="r1bottomp">
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-3">
+					<a href="#" class="atag">
+						<div class="row1">
+							<div class="busbig">
+								<img src="images/bigbus.png">
+							</div>
+							<div class="whoverbus">
+								<button type="button"><i class="fa fa-search" style="font-size:15px;color: white;"></i><span> SHOW MORE</span></button>
+								<p>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+
+									<span style="margin-left: 25px;"><img src="images/mess.png"></span>
+								</p>
+
+							</div>
+							<div class="r1bustop">
+								<img src="images/11.png">
+							</div>
+							<div class="r1busbottom">
+								<p class="p1">2 Aliquam quis pulvinar<br> purus</p>
+								<p class="p2">BUS TRANS</p>
+								<p class="r1bottomp">
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='far fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-3" >
+					<a href="#" class="atag">
+						<div class="row1" >
+							<div class="homebig">
+								<img src="images/homebig.png">
+							</div>
+							<div class="whover">
+								<button type="button"><i class="fa fa-search" style="font-si0ze:15px;color: white;"></i><span> SHOW MORE</span></button>
+								<p>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+
+									<span style="margin-left: 25px;"><img src="images/mess.png"></span>
+								</p>
+
+							</div>
+							<div class="r1top">
+								<img src="images/14.png">
+							</div>
+							<div class="r1bottom">
+								<p class="p1">4 bedroom house for rent<br>in Dubai</p>
+								<p class="p2">Reality Agency</p>
+								<p class="r1bottomp" style="margin-top: 0;">
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='far fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="col-lg-6">
+					<div   >
+						<div class="row1" id="homebig">
+							<div class="homebig2" style="background-color: #f19e1f;">
+								<img src="images/musicbig.png">
+							</div>
+							
+							<div class="r1top" style="border-bottom: 3px solid #f19e1f; ">
+								<img src="images/41.png">
+									<p class="visionAgency"><span class="lucip" style="color: white;"><a href="#">skybox club </a> </span>
+										<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+										<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+										<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+										<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+										<i class='far fa-star' style='font-size:12px;color:#f19e1f'></i>
+									</p>
+							</div>
+							<div class="gradient"></div>
+							<div class="r1bottom" 
+							id="atagg" style="margin-top: 15px; height: auto; transition: height 2s;">
+								<div class="r1btmLeftDiv">
+										<img src="images/ava41.png">
+										
+								</div>
+								<div class="r1btmRightDiv">
+									
+									<p class="r1bottomp" style="padding-bottom: 0;">
+										<i class='fas fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+										<i class='fas fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+										<i class='fas fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+										<i class='fas fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+										<i class='far fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+									</p>
+									<p class="lucip">PETER145</p>
+									<p class="p1" style="margin-bottom: 20px;">“Aliquam quis pulvinar purus. Etiam cursus<br> ipsum quis enim faucibus, quis posuere orci<br> ornare. Duis mattis sagittis fringilla.” ...<button id="readmoreBtn4">read more</button>
+									<span class="p1" id="p1clicked4"  style="margin-bottom: 20px;">
+										“Aliquam quis pulvinar purus. Etiam cursus<br> ipsum quis enim faucibus, quis posuere orci<br> ornare. Duis mattis sagittis fringilla.” ..<button id="hideBtn4">read less</button>
+									</span>
+									</p>
+
+									
+
+									
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3" >
+					<a href="#" class="atag">
+						<div class="row1" >
+							<div class="homebig">
+								<img src="images/homebig.png">
+							</div>
+							<div class="whover">
+								<button type="button"><i class="fa fa-search" style="font-size:15px;color: white;"></i><span> SHOW MORE</span></button>
+								<p>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+
+									<span style="margin-left: 25px;"><img src="images/mess.png"></span>
+								</p>
+
+							</div>
+							<div class="r1top">
+								<img src="images/11.png">
+							</div>
+							<div class="r1bottom">
+								<p class="p1">2 bedroom house for rent <br>in Dubai</p>
+								<p class="p2">Vision Agency</p>
+								<p class="r1bottomp">
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='far fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-3">
+					<a href="#" class="atag">
+						<div class="row1">
+							<div class="musicbig">
+								<img src="images/musicbig.png">
+							</div>
+							<div class="whovermusic">
+								<button type="button"><i class="fa fa-search" style="font-size:15px;color: white;"></i><span> SHOW MORE</span></button>
+								<p>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+
+									<span style="margin-left: 25px;"><img src="images/mess.png"></span>
+								</p>
+
+							</div>
+							<div class="r1musictop">
+								<img src="images/12.png">
+							</div>
+							<div class="r1musicbottom">
+								<p class="p1">2 Beach party festival <br>
+								2014</p>
+								<p class="p2">LONG BEACH</p>
+								<p class="r1bottomp">
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="hid">
+
+
+				<div class="row" >
+				<div class="col-lg-3" >
+					<a href="#" class="atag">
+						<div class="row1" >
+							<div class="homebig">
+								<img src="images/homebig.png">
+							</div>
+							<div class="whover">
+								<button type="button"><i class="fa fa-search" style="font-size:15px;color: white;"></i><span> SHOW MORE</span></button>
+								<p>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+
+									<span style="margin-left: 25px;"><img src="images/mess.png"></span>
+								</p>
+
+							</div>
+							<div class="r1top">
+								<img src="images/11.png">
+							</div>
+							<div class="r1bottom">
+								<p class="p1">2 bedroom house for rent <br>in Dubai</p>
+								<p class="p2">Vision Agency</p>
+								<p class="r1bottomp">
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='far fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-3">
+					<a href="#" class="atag">
+						<div class="row1">
+							<div class="musicbig">
+								<img src="images/musicbig.png">
+							</div>
+							<div class="whovermusic">
+								<button type="button"><i class="fa fa-search" style="font-size:15px;color: white;"></i><span> SHOW MORE</span></button>
+								<p>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+
+									<span style="margin-left: 25px;"><img src="images/mess.png"></span>
+								</p>
+
+							</div>
+							<div class="r1musictop">
+								<img src="images/12.png">
+							</div>
+							<div class="r1musicbottom">
+								<p class="p1">2 Beach party festival <br>
+								2014</p>
+								<p class="p2">LONG BEACH</p>
+								<p class="r1bottomp">
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-3">
+					<a href="#" class="atag">
+						<div class="row1">
+							<div class="busbig">
+								<img src="images/bigbus.png">
+							</div>
+							<div class="whoverbus">
+								<button type="button"><i class="fa fa-search" style="font-size:15px;color: white;"></i><span> SHOW MORE</span></button>
+								<p>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+
+									<span style="margin-left: 25px;"><img src="images/mess.png"></span>
+								</p>
+
+							</div>
+							<div class="r1bustop">
+								<img src="images/11.png">
+							</div>
+							<div class="r1busbottom">
+								<p class="p1">2 Aliquam quis pulvinar<br> purus</p>
+								<p class="p2">BUS TRANS</p>
+								<p class="r1bottomp">
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='far fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-3" >
+					<a href="#" class="atag">
+						<div class="row1" >
+							<div class="homebig">
+								<img src="images/homebig.png">
+							</div>
+							<div class="whover">
+								<button type="button"><i class="fa fa-search" style="font-si0ze:15px;color: white;"></i><span> SHOW MORE</span></button>
+								<p>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+
+									<span style="margin-left: 25px;"><img src="images/mess.png"></span>
+								</p>
+
+							</div>
+							<div class="r1top">
+								<img src="images/14.png">
+							</div>
+							<div class="r1bottom">
+								<p class="p1">4 bedroom house for rent<br>in Dubai</p>
+								<p class="p2">Reality Agency</p>
+								<p class="r1bottomp" style="margin-top: 0;">
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='far fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+
+
+
+				<div class="row">
+				<div class="col-lg-6">
+					<div   >
+						<div class="row1" id="homebig">
+							<div class="homebig2" style="background-color: #f19e1f;">
+								<img src="images/musicbig.png">
+							</div>
+							
+							<div class="r1top" style="border-bottom: 3px solid #f19e1f;">
+								<img src="images/41.png">
+									<p class="visionAgency"><span class="lucip" style="color: white;"><a href="#">skybox club </a> </span>
+										<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+										<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+										<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+										<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+										<i class='far fa-star' style='font-size:12px;color:#f19e1f'></i>
+									</p>
+							</div>
+							<div class="gradient"></div>
+							<div class="r1bottom" 
+							id="atagg" style="margin-top: 15px; height: auto; transition: height 2s;">
+								<div class="r1btmLeftDiv">
+										<img src="images/ava41.png">
+										
+								</div>
+								<div class="r1btmRightDiv">
+									
+									<p class="r1bottomp" style="padding-bottom: 0;">
+										<i class='fas fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+										<i class='fas fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+										<i class='fas fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+										<i class='fas fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+										<i class='far fa-star' style='font-size:18px;color:#f19e1f'></i>
+
+									</p>
+									<p class="lucip">PETER145</p>
+									<p class="p1" style="margin-bottom: 20px;">“Aliquam quis pulvinar purus. Etiam cursus<br> ipsum quis enim faucibus, quis posuere orci<br> ornare. Duis mattis sagittis fringilla.” ...<button id="readmoreBtn3">read more</button>
+									<span class="p1" id="p1clicked3"  style="margin-bottom: 20px;">
+										“Aliquam quis pulvinar purus. Etiam cursus<br> ipsum quis enim faucibus, quis posuere orci<br> ornare. Duis mattis sagittis fringilla.” ..<button id="hideBtn3">read less</button>
+									</span>
+									</p>
+
+									
+
+									
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3" >
+					<a href="#" class="atag">
+						<div class="row1" >
+							<div class="homebig">
+								<img src="images/homebig.png">
+							</div>
+							<div class="whover">
+								<button type="button"><i class="fa fa-search" style="font-size:15px;color: white;"></i><span> SHOW MORE</span></button>
+								<p>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+
+									<span style="margin-left: 25px;"><img src="images/mess.png"></span>
+								</p>
+
+							</div>
+							<div class="r1top">
+								<img src="images/11.png">
+							</div>
+							<div class="r1bottom">
+								<p class="p1">2 bedroom house for rent <br>in Dubai</p>
+								<p class="p2">Vision Agency</p>
+								<p class="r1bottomp">
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='far fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-3">
+					<a href="#" class="atag">
+						<div class="row1">
+							<div class="musicbig">
+								<img src="images/musicbig.png">
+							</div>
+							<div class="whovermusic">
+								<button type="button" ><i class="fa fa-search" style="font-size:15px;color: white;"></i><span> SHOW MORE</span></button>
+								<p>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+									<i class='far fa-star' style='font-size:18px;color:white'></i>
+
+									<span style="margin-left: 25px;"><img src="images/mess.png"></span>
+								</p>
+
+							</div>
+							<div class="r1musictop">
+								<img src="images/12.png">
+							</div>
+							<div class="r1musicbottom">
+								<p class="p1">2 Beach party festival <br>
+								2014</p>
+								<p class="p2">LONG BEACH</p>
+								<p class="r1bottomp">
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+									<i class='fas fa-star' style='font-size:12px;color:#f19e1f'></i>
+
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			</div>
+			<div class="row" style="margin-top: 50px;">
+				<div class="col-lg-5"></div>
+				<div class="col-lg-2"><button class="loadmore">Load more <i class='fas fa-long-arrow-alt-right' style='font-size:18px;'></i></button></div>
+				<div class="col-lg-5"></div>
+			</div>
+			<div class="row"><hr style="border: 1px solid #e2dee0;"></div>
+			<div class="row" style="margin-top: 70px;">
+				<div class="col-lg-3"></div>
+				<div class="col-lg-6">
+					<div class="whatDuhootDiv">
+						<p class="whatDuhoot">What can DuHoot offer to you?</p>
+						<p class="btmWhatDuhoot">Etiam cursus ipsum quis enim faucibus</p>
+					</div>	
+				</div>
+				<div class="col-lg-3"></div>
+			</div>
+
+			<div class="row" style="margin-top: 70px;">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-10">
+					<div class="icons">
+						<div class="iconboder" style="border:2px solid #1baf5d;"><img src="images/btmhomeicon.png"></div>
+						<hr>
+						<div class="iconboder"><img src="images/btmiconnurse.png"></div>
+						<hr>
+						<div class="iconboder"><img src="images/btmiconedu.png"></div>
+						<hr>
+						<div class="iconboder"><img src="images/btmmusicicon.png"></div>
+						<hr>
+						<div class="iconboder"><img src="images/btmbusicon.png"></div>
+					</div>
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+			<div class="row" style="margin-top: 50px;">
+				<div class="col-lg-5"></div>
+				<div class="col-lg-2">
+					<div class="reality">
+						<p>Reality</p>
+					</div>
+				</div>
+				<div class="col-lg-5"></div>
+			</div>
+		
+
+	<div class="row" style="margin-top: 20px; margin-bottom: 70px;">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-5">
+			<div class="Real">
+				<div class="backicon"><img src="images/seticon.png"></div>
+				<div class="rpdiv">
+					<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-5">
+			<div class="Real">
+				<div class="backicon"><img src="images/leadicon.png"></div>
+				<div class="rpdiv">
+					<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, vel dignissim mauris viverra. Maecenas vitae risus est. In hendrerit, massa at.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-1"></div>
+	</div>
+	</div>
+	</div>
+
+	<div class="footer">
+	<div class="layer">
+		<div class="container" style="width: 980px;">
+			<div class="row">
+				<p class="sub">Subscribe to our newsletter</p>
+			</div>
+			<div class="row">
+				<p class="mail"><i class="material-icons" style="font-size:18px;color:white;">mail_outline</i></p>
+				<input type="email" placeholder="your@email.com">
+				<button>SUBSCRIBE</button>
+			</div>
+			<div class="row"><hr style="border: 1px solid #e2dee0; margin-top: 40px;"></div>
+			<div class="row" style="margin-top:20px; margin-bottom: 50px;">
+				<div class="col-lg-4">
+					<h3>Ipsum quis</h3>
+						<ul >
+							<li><a href="#" class="fa">Aliquam quis</a> </li>
+							<li><a href="#" class="fa">Pulvinar purus</a></li>
+							<li><a href="#" class="fa">Etiam cursus</a></li>
+							<li><a href="#" class="fa">Ipsum quis</a></li>
+							<li><a href="#" class="fa">Enim faucibus</a></li>
+						</ul>
+				</div>
+				<div class="col-lg-4">
+					<h3>Ipsum quis</h3>
+						<ul>
+							<li><a href="#" class="fa">Aliquam quis</a> </li>
+							<li><a href="#" class="fa">Pulvinar purus</a></li>
+							<li><a href="#" class="fa">Etiam cursus</a></li>
+							<li><a href="#" class="fa">Ipsum quis</a></li>
+							<li><a href="#" class="fa">Enim faucibus</a></li>
+						</ul>
+				</div>
+				<div class="col-lg-4" style="text-align: left;">
+					<h3>Follow us</h3>
+					<ul>
+						<li class="folow"><a href="#"><i class="fa fa-facebook-f" style="font-size:30px;color:white"></i></a></li>
+						<li class="folow"><a href="#"><i class="fa fa-twitter" style="font-size:30px;color:white"></i></a></li>
+						<li class="folow"><a href="#"><i class="fa fa-google-plus" style="font-size:30px;color:white"></i></a></li>
+						<li class="folow"><a href="#"><i class='fab fa-youtube' style='font-size:30px;color:white'></i></a></li>
+					</ul>
+					<p class="copy">Copyright © All Rights reserved</p>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+<script src = "js/app.js"></script>
+</body>
+</html>
